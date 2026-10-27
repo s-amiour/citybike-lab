@@ -23,3 +23,7 @@ python -m unittest discover -s tests -v
 
 ```
 Peer review: checked README clarity.
+
+## How we verify releases
+
+The test, `test_site`, composes of checking for structural integrity, existence of the CSS file as well as the nonexistence of merge conflict signatures or sensitive data.
