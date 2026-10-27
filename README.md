@@ -22,3 +22,4 @@ Before constructing a release, it is paramount and part of our functional policy
 python -m unittest discover -s tests -v
 
 ```
+Peer review: checked README clarity.
