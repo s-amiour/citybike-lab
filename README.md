@@ -6,16 +6,19 @@ A minimal static website used to practice Git, GitHub and automated quality chec
 
 Open `index.html` in a browser. No server is required.
 
-## Run checks
-
-```sh
-python -m unittest discover -s tests -v
-```
-
-Python 3 and Git are the only tools needed for the offline lab.
+> Python 3 and Git are the only tools needed for the offline lab.
 
 ## Classroom rules
 
 - Work on a branch for each feature.
 - Read your changes before committing.
 - Never commit personal passwords, access tokens or `.env` files.
+
+## Release policy
+
+Before constructing a release, it is paramount and part of our functional policy to run the tests for the projects.
+
+```sh
+python -m unittest discover -s tests -v
+
+```
